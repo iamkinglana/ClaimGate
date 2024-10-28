@@ -24,7 +24,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
         /* Custom Styles */
         body {
             font-family: 'Nunito', sans-serif;
-            background-color: #151617; /* Light background for better contrast */
+            background-color: #151617; 
             background-image:  url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg') ;
         }
 
@@ -33,14 +33,14 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
 
         .navbar-brand {
-            font-weight: bold; /* Bold logo text */
-            font-size: 1.5rem; /* Larger font size */
-            color: white !important; /* White color for brand */
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: white !important;
         }
 
         .nav-link {
-            color: white !important; /* White text for links */
-            transition: color 0.3s; /* Smooth color transition */
+            color: white !important;
+            transition: color 0.3s;
         }
 
         .nav-link:hover {
@@ -51,12 +51,12 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
             text-align: left;
             margin-top: 3px;
             margin-bottom: 10px;
-            color: #343a40; /* Darker color for contrast */
+            color: #343a40;
         }
 
         .submit-btn {
-            background-color: #28a745; /* Green background for button */
-            color: white; /* White text */
+            background-color: #28a745;
+            color: white;
             padding: 12px 25px;
             border: none;
             border-radius: 5px;
@@ -66,19 +66,19 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
 
         .submit-btn:hover {
-            background-color: #218838; /* Darker green on hover */
+            background-color: #218838;
         }
 
         .bg-image {
             background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg');
             background-size: cover;
             background-position: center;
-            height: 100vh; /* Full height for section */
+            height: 100vh;
         }
 
         .card {
-            border: none; /* Remove border */
-            border-radius: 10px; /* Rounded corners */
+            border: none;
+            border-radius: 10px;
         }
 
         .footer {
