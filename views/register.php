@@ -19,10 +19,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+
+        }
+    </style>
 </head>
 
 <body>
-    <header class="bg-primary text-white py-3">
+    <header class="text-white py-3">
         <div class="container">
 
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -73,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 
-    <footer class="bg-primary text-white text-center py-3">
+    <footer class="text-white text-center py-3">
         <p>&copy; 2024 ClaimGate</p>
     </footer>
 

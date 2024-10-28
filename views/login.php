@@ -22,8 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
          body {
             font-family: 'Nunito', sans-serif;
-            /* background-color: #151617; Light background for better contrast */
-            /* background-image:  url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg') ; */
+        
         }
 
     </style>
